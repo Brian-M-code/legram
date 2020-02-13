@@ -1,1 +1,1 @@
-web: gunicorn legram_project.wsgi --log-file -
+web: gunicorn legram.wsgi --log-file -

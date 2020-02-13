@@ -3,4 +3,12 @@
 
 <h1>Instagram</h1>
 
+<ul>
+    {% for image in all_images_list %}
+        <li><img src="{{image.image.url}}"></li>
+        <p>{{image.name}}</p>
+        <p>{{image.caption}}</p>
+    {% endfor %}
+</ul>
+
 {% endblock content %}

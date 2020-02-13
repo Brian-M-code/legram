@@ -1,0 +1,1 @@
+web: gunicorn legram_project.wsgi --log-file -
